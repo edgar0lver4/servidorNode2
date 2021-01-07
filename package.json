@@ -1,0 +1,17 @@
+{
+  "name": "primer-servidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "inicia": "nodemon service.js",
+    "test": "nodemon service.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.4.7",
+    "nodemon": "^2.0.6"
+  }
+}
